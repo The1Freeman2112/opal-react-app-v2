@@ -5,7 +5,7 @@ interface CreateGenreProps {
 
 }
 
-const CreateGenre: React.FC<CreateGenreProps> = ({ }) => {
+const CreateGenre: React.FC<CreateGenreProps> = () => {
         return (
                 <>
                         <h3>Create Genre</h3>

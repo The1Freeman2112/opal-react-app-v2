@@ -5,7 +5,7 @@ interface IndexMovieTheatersProps {
 
 }
 
-const IndexMovieTheaters: React.FC<IndexMovieTheatersProps> = ({ }) => {
+const IndexMovieTheaters: React.FC<IndexMovieTheatersProps> = () => {
     return (
         <>
             <h3>Movie Theaters</h3>

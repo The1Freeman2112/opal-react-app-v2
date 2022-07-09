@@ -4,7 +4,7 @@ interface EditActorProps {
 
 }
 
-const EditActor: React.FC<EditActorProps> = ({ }) => {
+const EditActor: React.FC<EditActorProps> = () => {
     return (
         <>
             <h3>Edit Actor</h3>

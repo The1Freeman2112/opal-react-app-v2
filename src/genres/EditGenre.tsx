@@ -6,7 +6,7 @@ interface EditGenreProps {
 
 }
 
-const EditGenre: React.FC<EditGenreProps> = ({ }) => {
+const EditGenre: React.FC<EditGenreProps> = () => {
   const { id }: any = useParams();
   return (
     <>

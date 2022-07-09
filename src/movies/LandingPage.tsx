@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { landingPageDTO } from './movies.model';
-import MoviesList from './MoviesList'
+import MoviesList from './MoviesList';
 
 interface LandingPageProps {
 
 }
 
-const LandingPage: React.FC<LandingPageProps> = ({ }) => {
+const LandingPage: React.FC<LandingPageProps> = () => {
+
     const [movies, setMovies] = useState<landingPageDTO>({});
 
     useEffect(() => {
@@ -37,10 +38,10 @@ const LandingPage: React.FC<LandingPageProps> = ({ }) => {
     return (
         <>
             <h3>In Theaters</h3>
-            <MoviesList movies={movies.inTheaters} />
+            <MoviesList movies={movies?.inTheaters} />
 
             <h3>Upcoming Releases</h3>
-            <MoviesList movies={movies.upcomingReleases} />
+            <MoviesList movies={movies?.upcomingReleases} />
         </>
     )
 }

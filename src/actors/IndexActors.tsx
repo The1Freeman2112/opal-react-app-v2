@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom'
 interface IndexActorsProps {
 
 }
-
-const IndexActors: React.FC<IndexActorsProps> = ({ }) => {
+const IndexActors: React.FC<IndexActorsProps> = () => {
     return (
         <>
             <h3>Actors</h3>

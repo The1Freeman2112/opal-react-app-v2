@@ -4,7 +4,7 @@ interface CreateActorProps {
 
 }
 
-const CreateActor: React.FC<CreateActorProps> = ({ }) => {
+const CreateActor: React.FC<CreateActorProps> = () => {
     return (
         <>
             <h3>Create Actor</h3>

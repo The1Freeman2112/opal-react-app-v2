@@ -4,7 +4,7 @@ interface EditMovieTheaterProps {
 
 }
 
-const EditMovieTheater: React.FC<EditMovieTheaterProps> = ({ }) => {
+const EditMovieTheater: React.FC<EditMovieTheaterProps> = () => {
     return (
         <>
             <h3>Edit MovieTheater</h3>

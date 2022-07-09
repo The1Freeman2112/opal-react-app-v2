@@ -5,7 +5,7 @@ interface RedirectToLandingPageProps {
 
 }
 
-const RedirectToLandingPage: React.FC<RedirectToLandingPageProps> = ({}) => {
+const RedirectToLandingPage: React.FC<RedirectToLandingPageProps> = () => {
         return <Redirect to={{pathname: '/'}} />
 }
 export default RedirectToLandingPage
